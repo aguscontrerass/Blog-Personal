@@ -34,7 +34,7 @@ nav a {
 
 .intro {
   text-align: center;
-  margin: 20px 80px;
+  margin: 20px;
   background-color: #fff;
   color: #D22EAC;
   padding: 20px;
@@ -43,6 +43,7 @@ nav a {
   height: 300px;
   width: 200px;
   border-radius: 6px;
+  
 }
 .grid-articulos {
   display: grid;
@@ -103,13 +104,25 @@ footer {
   color:#1C0052;
 }
 
-/* Media queries */
+
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column;
+    flex-direction:column;
   }
-
   body {
     padding: 10px;
+  }
+  .intro {
+  text-align: center;
+  margin: auto;
+  background-color: #fff;
+  color: #D22EAC;
+}
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 15px auto;
+  display: block;
   }
 }
